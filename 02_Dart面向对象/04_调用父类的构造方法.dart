@@ -62,5 +62,6 @@ class Person {
 class Student extends Person {
   Student.myself(var age) : super.myself(age) {
     print("I'm student, $age years old");
+    // 测试
   }
 }
